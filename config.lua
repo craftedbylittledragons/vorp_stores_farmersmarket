@@ -14,23 +14,33 @@ Config.defaultlang = "en_lang"
        -- open stores
 Config.Key = 0x760A9C6F --[G]
 
---Webhook Section, description is in translation
-Config.UseWebhook = false -- Use webhook
-
---Mandatory Webhook Parts
-Config.WebhookTitle = ""
-Config.Webhook = ""
-
---Optional Webhook Parts, if not filled will default vorp_core config
-Config.WebhookColor = ""
-Config.WebhookName = ""
-Config.WebhookLogo = ""
-Config.WebhookLogo2 = ""
-Config.WebhookAvatar = ""
-
     --- STORES ---
 
 Config.Stores = {
+-----------------------------------------------------------------------------
+--------------------------------------Armadillo------------------------------
+-----------------------------------------------------------------------------
+ 
+-----------------------------------------------------------------------------
+--------------------------------------Blackwater-----------------------------
+-----------------------------------------------------------------------------
+  
+-----------------------------------------------------------------------------
+--------------------------------------Rhodes---------------------------------
+-----------------------------------------------------------------------------
+   
+-----------------------------------------------------------------------------
+--------------------------------------St-Denis-------------------------------
+-----------------------------------------------------------------------------
+   
+-----------------------------------------------------------------------------
+--------------------------------------Strawberry-----------------------------
+-----------------------------------------------------------------------------
+    
+-----------------------------------------------------------------------------
+--------------------------------------Tumbleweed-----------------------------
+-----------------------------------------------------------------------------
+    
 -----------------------------------------------------------------------------
 --------------------------------------Valentine------------------------------
 -----------------------------------------------------------------------------
@@ -53,6 +63,11 @@ Config.Stores = {
         StoreOpen = 7, -- am
         StoreClose = 21 -- pm
     }, 
+-----------------------------------------------------------------------------
+--------------------------------------Vanhorn--------------------------------
+-----------------------------------------------------------------------------
+    
+ 
 }
 
 -----------------------------------------------------------------------------
@@ -67,30 +82,14 @@ Config.Stores = {
     -- category = where the item will be displayed at
  
 FarmersMarketItems_SELL = {
-    -- Vegetables
-        { itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Carrot", category = "Vegetables" },
-        { itemLabel = "Chanterelles Mushroom", itemName = "Chanterelles", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Chanterelles Mushroom", category = "Vegetables" },
-        { itemLabel = "Parasol Mushroom", itemName = "Parasol_Mushroom", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Parasol Mushroom", category = "Vegetables" }, 
-    -- Fruits
-        { itemLabel = "Wintergreen Berries", itemName = "Wintergreen_Berry", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Wintergreen Berries", category = "Fruits" },
-    -- Roots
-        { itemLabel = "Burdock Root", itemName = "Burdock_Root", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Burdock Root", category = "Roots" },
-        { itemLabel = "Onion", itemName = "Onion", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Onion", category = "Roots" },
-        { itemLabel = "Potato", itemName = "potato", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Potato", category = "Roots" },
-    -- Aromatics
-        { itemLabel = "Alaskan Ginseng", itemName = "Alaskan_Ginseng", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Alaskan Ginseng", category = "Aromatics" },
-        { itemLabel = "American Ginseng", itemName = "American_Ginseng", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell American Ginseng", category = "Aromatics" },
-        { itemLabel = "Creeking Thyme", itemName = "Creeking_Thyme", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Creeking Thyme", category = "Aromatics" },
-        { itemLabel = "Crows Garlic", itemName = "Crows_Garlic", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Crows Garlic", category = "Aromatics" },
-        { itemLabel = "Mint", itemName = "Wild_Mint", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Mint", category = "Aromatics" },
-        
     -- Dairy 
         { itemLabel = "Milk", itemName = "milk", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Milk", category = "Dairy" },  
     -- Protein 
         { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Eggs", category = "Protein" },
     -- Misc
+        { itemLabel = "Hop", itemName = "hop", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Hop", category = "Misc" },
         { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Indian Tobbaco", category = "Misc" },
-}
+ }
  
 
 -----------------------------------------------------------------------------
@@ -144,30 +143,14 @@ Config.SellItems = {
     -- category = where the item will be displayed at
  
     FarmersMarketItems_BUY = {
-        -- Vegetables
-            { itemLabel = "Carrot", itemName = "carrot", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Carrot", category = "Vegetables" },
-            { itemLabel = "Chanterelles Mushroom", itemName = "Chanterelles", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Chanterelles Mushroom", category = "Vegetables" },
-            { itemLabel = "Parasol Mushroom", itemName = "Parasol_Mushroom", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Parasol Mushroom", category = "Vegetables" }, 
-        -- Fruits
-            { itemLabel = "Wintergreen Berries", itemName = "Wintergreen_Berry", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Wintergreen Berries", category = "Fruits" },
-        -- Roots
-            { itemLabel = "Burdock Root", itemName = "Burdock_Root", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Burdock Root", category = "Roots" },
-            { itemLabel = "Onion", itemName = "Onion", currencyType = "cash", buyprice = 1, randomprice = math.random(30, 55), desc = "Buy Onion", category = "Roots" },
-            { itemLabel = "Potato", itemName = "potato", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Potato", category = "Roots" },
-        -- Aromatics
-            { itemLabel = "Alaskan Ginseng", itemName = "Alaskan_Ginseng", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Alaskan Ginseng", category = "Aromatics" },
-            { itemLabel = "American Ginseng", itemName = "American_Ginseng", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy American Ginseng", category = "Aromatics" },
-            { itemLabel = "Creeking Thyme", itemName = "Creeking_Thyme", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Creeking Thyme", category = "Aromatics" },
-            { itemLabel = "Crows Garlic", itemName = "Crows_Garlic", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Crows Garlic", category = "Aromatics" },
-            { itemLabel = "Mint", itemName = "Wild_Mint", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Mint", category = "Aromatics" },
-            
         -- Dairy 
             { itemLabel = "Milk", itemName = "milk", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Milk", category = "Dairy" },  
         -- Protein 
             { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Eggs", category = "Protein" },
         -- Misc
+            { itemLabel = "Hop", itemName = "hop", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Hop", category = "Misc" },
             { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Indian Tobbaco", category = "Misc" },
-    }
+   }
     
 
 -----------------------------------------------------------------------------
