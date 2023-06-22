@@ -83,12 +83,12 @@ Config.Stores = {
  
 FarmersMarketItems_SELL = {
     -- Dairy 
-        { itemLabel = "Milk", itemName = "milk", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Milk", category = "Dairy" },  
+        { itemLabel = "Milk", itemName = "milk", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Milk", category = "Dairy" },  
     -- Protein 
-        { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Eggs", category = "Protein" },
+        { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Eggs", category = "Protein" },
     -- Misc
-        { itemLabel = "Hop", itemName = "hop", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Hop", category = "Misc" },
-        { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", sellprice = 1, randomprice = math.random(30, 55), desc = "Sell Indian Tobbaco", category = "Misc" },
+        { itemLabel = "Hop", itemName = "hop", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Hop", category = "Misc" },
+        { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", item_price = 1, randomprice = math.random(30, 55), desc = "Sell Indian Tobbaco", category = "Misc" },
  }
  
 
@@ -144,12 +144,12 @@ Config.SellItems = {
  
     FarmersMarketItems_BUY = {
         -- Dairy 
-            { itemLabel = "Milk", itemName = "milk", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Milk", category = "Dairy" },  
+            { itemLabel = "Milk", itemName = "milk", currencyType = "cash", item_price = 2.50, randomprice = math.random(30, 55), desc = "Buy Milk", category = "Dairy" },  
         -- Protein 
-            { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Eggs", category = "Protein" },
+            { itemLabel = "Eggs", itemName = "eggs", currencyType = "cash", item_price = 2.50, randomprice = math.random(30, 55), desc = "Buy Eggs", category = "Protein" },
         -- Misc
-            { itemLabel = "Hop", itemName = "hop", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Hop", category = "Misc" },
-            { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", buyprice = 2.50, randomprice = math.random(30, 55), desc = "Buy Indian Tobbaco", category = "Misc" },
+            { itemLabel = "Hop", itemName = "hop", currencyType = "cash", item_price = 2.50, randomprice = math.random(30, 55), desc = "Buy Hop", category = "Misc" },
+            { itemLabel = "Indian Tobbaco", itemName = "Indian_Tobbaco", currencyType = "cash", item_price = 2.50, randomprice = math.random(30, 55), desc = "Buy Indian Tobbaco", category = "Misc" },
    }
     
 
